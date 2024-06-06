@@ -8,7 +8,7 @@ public class DungeonEscTarget : TargetRules
 	public DungeonEscTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
 		ExtraModuleNames.AddRange( new string[] { "DungeonEsc" } );
 	}
 }

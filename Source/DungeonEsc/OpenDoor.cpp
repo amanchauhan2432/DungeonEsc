@@ -56,7 +56,7 @@ void UOpenDoor::FindAudioComponent()
 void UOpenDoor::OpenDoor(float DeltaTime)
 {
 	FVector Current = GetOwner()->GetActorLocation();
-	FVector OpenDoor(Current.X, Current.Y, OpenTarget);
+	FVector OpenDoor = Current;
 	OpenDoor.Z = FMath::Lerp(Current.Z, OpenTarget, DeltaTime * DoorOpenSpeed);
 	GetOwner()->SetActorLocation(OpenDoor);
 
@@ -72,7 +72,7 @@ void UOpenDoor::OpenDoor(float DeltaTime)
 void UOpenDoor::CloseDoor(float DeltaTime)
 {
 	FVector Current = GetOwner()->GetActorLocation();
-	FVector CloseDoor(Current.X, Current.Y, CloseTarget);
+	FVector CloseDoor = Current;
 	CloseDoor.Z = FMath::Lerp(Current.Z, CloseTarget, DeltaTime * DoorCloseSpeed);
 	GetOwner()->SetActorLocation(CloseDoor);
 
