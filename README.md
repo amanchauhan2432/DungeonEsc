@@ -60,9 +60,6 @@ With this project I learned :
     3. Level Sequencer.
     4. Grabbing and Releasing objects.
     5. Little bit about Particle System.
-## Optimizations
-
-Unreal Engine uses pointer for making class instances in order to optimize memory. And also I uploaded only those assets which is used to design the game level.
 
 These things really optimized this game.
 ## Screenshots
