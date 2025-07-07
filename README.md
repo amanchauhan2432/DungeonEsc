@@ -61,7 +61,6 @@ With this project I learned :
     4. Grabbing and Releasing objects.
     5. Little bit about Particle System.
 
-These things really optimized this game.
 ## Screenshots
 
 ![App Screenshot](https://img.itch.zone/aW1hZ2UvMTY4MTkyNS85OTEwMzYxLnBuZw==/794x1000/e%2F6X5Q.png)
