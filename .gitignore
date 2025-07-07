@@ -1,5 +1,13 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
 # Visual Studio 2015 user specific files
 .vs/
+.vscode/
+.vsconfig
+.ignore
 
 # Compiled Object files
 *.slo
@@ -50,7 +58,7 @@ Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
-Build/*
+[Bb]uild/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -72,3 +80,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Platforms/*
+.github/*
